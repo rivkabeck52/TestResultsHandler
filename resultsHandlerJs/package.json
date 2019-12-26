@@ -1,0 +1,18 @@
+{
+  "name": "resultHandlerJs",
+  "version": "0.0.1",
+  "dependencies": {},
+  "devDependencies": {
+    "assert": "^1.4.1",
+    "chromedriver": "^2.40.0",
+    "eyes.selenium": "0.0.81",
+    "fs": "0.0.1-security",
+    "https": "^1.0.0",
+    "mocha": "^5.2.0",
+    "request": "^2.87.0",
+    "selenium-webdriver": "3.6.0"
+  },
+  "scripts": {
+    "test": "./node_modules/mocha/bin/mocha -t 60000"
+  }
+}
